@@ -42,6 +42,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BitConverterEx.cs" />
+    <Compile Include="Chunk\APNG\acTL.cs" />
+    <Compile Include="Chunk\APNG\fcTL.cs" />
+    <Compile Include="Chunk\PNG\gAMA.cs" />
+    <Compile Include="Chunk\PNG\IDAT.cs" />
+    <Compile Include="Chunk\PNG\IEND.cs" />
+    <Compile Include="Chunk\PNG\IHDR.cs" />
+    <Compile Include="Chunk\PNG\pHYs.cs" />
+    <Compile Include="Chunk\PNG\sRGB.cs" />
+    <Compile Include="CRC32.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
